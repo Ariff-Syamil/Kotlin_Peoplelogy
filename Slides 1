@@ -1,0 +1,69 @@
+
+fun main() {
+    // print 'Hello, Android'
+    //println("Hello, Android!!!")
+    
+    // declare constant x,y and z
+    val x=4;
+    val y=5;
+    //println(x);
+    // print value of x
+    
+    val z=x+y;
+    //println(z);
+    // print value of z=x+y
+    
+    var woo=2;
+    woo=5;
+    //println(woo);
+    
+    var name:String = ("Ariff")
+    var address:String = ("Penang")
+    //println(name);
+    //println(address);
+    
+    var jantina:Char = 'L'
+    //println(jantina);
+    
+    val message = "My name is " +name+ ". I live in " +address+ "."
+    //println(message);
+    
+    val messageUpdate = "My name is $name and I live in $address ."
+    //println(messageUpdate);
+    
+    var num1:Int = 9;
+    var num2:Int = 5;
+    
+    var sum:Int = num1+num2;
+    //println(sum);
+    
+    var minus = num1-num2;
+    var product = num1 * num2;
+    var division = num1 / num2;
+    var modulus = num1 % num2;
+    
+    //println(minus);
+    //println(product);
+    //println(division);
+    //println(modulus);
+    
+    var eaten = true;
+    var full = false;
+    
+    /**println (eaten && full);
+    println (eaten || full);
+    println (!eaten);**/
+    
+    var profession = null;
+    var newprofession:String? = null;
+    
+    /**println(profession);
+    println(newprofession);
+    newprofession = ("Engineer")
+    println(newprofession);**/
+    
+    var scores = arrayOf (70,80,90,200,40,30);
+    println (scores[0]);
+    println (scores[2]);
+    println (scores.size);
+}
